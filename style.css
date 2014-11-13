@@ -1,12 +1,13 @@
 body {
-	background-color: darkslategrey;
+	background-color: #2B232B;
 	font-size: 100%
 }
 
 #title {
-	color: white;
+	color: #FF6670;
 	font-size: 1.5em;
 	font-family: sans-serif;
+	margin-left: 2.5em;
 }
 
 #mainColumn {
@@ -15,17 +16,19 @@ body {
 }
 #nav {
 	width: 20%;
-	float: left;
-	background: lightgrey;
-	padding: 0 .25em;
+	float: right;
+	color: #FF6670;
+	background-color: #FFD1B5;
+	padding: 1em;
 }
 #nav h2{
 	font-size:1em;
 }
 #content {
 	float: left;
-	width: 75%;
-	background-color: white;
+	width: 73%;
+	color: #2B232B;
+	background-color: #FFD1B5;
 	padding: 1em;
 	font-family: serif;
 }
